@@ -17,4 +17,4 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: | curl -XPOST  'https://discord.com/api/webhooks/914791738286153768/uMkM_Gy7aGV_O1cjUW3EzELOWkcTppavCwld3QVl_Tp70rQdxrdGg9vNwCTiUkCWsoI5' -H 'Content-Type: application/json' -d '{"content": "bonjour"}'
+      - run: | curl -XPOST'https://discord.com/api/webhooks/914791738286153768/uMkM_Gy7aGV_O1cjUW3EzELOWkcTppavCwld3QVl_Tp70rQdxrdGg9vNwCTiUkCWsoI5'-H 'Content-Type: application/json' -d '{"content": "bonjour"}'
